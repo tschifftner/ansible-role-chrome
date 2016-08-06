@@ -1,0 +1,21 @@
+---
+
+- name: Install chrome keys
+  apt_key:
+    url: "{{ chrome_apt_keyurl }}"
+    state: present
+
+- name: Install chrome apt repositories
+  apt_repository:
+    repo: "{{ item }}"
+    state: present
+    update_cache: yes
+  register: chrome_install_packages
+  with_items: '{{chrome_apt_repositories}}'
+
+- name: Install chrome server apt packages
+  apt:
+    pkg: '{{ item }}'
+    state: present
+    force: yes
+  with_items: '{{chrome_apt_packages}}'

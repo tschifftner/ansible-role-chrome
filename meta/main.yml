@@ -1,0 +1,22 @@
+---
+dependencies: []
+
+galaxy_info:
+  author: Tobias Schifftner
+  description: Installs chrome browser on Debian/Ubuntu linux servers. PHP is required for n98-magerun to function!
+  company: ambimax® GmbH
+  license: MIT
+  min_ansible_version: 2.1
+  platforms:
+  - name: Debian
+    versions:
+    - jessie
+  - name: Ubuntu
+    versions:
+    - precise
+    - trusty
+  galaxy_tags:
+    - ubuntu
+    - debian
+    - chrome
+    - browser

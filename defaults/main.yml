@@ -1,0 +1,9 @@
+---
+
+chrome_apt_keyurl: 'https://dl-ssl.google.com/linux/linux_signing_key.pub'
+
+chrome_apt_repositories:
+  - 'deb http://dl.google.com/linux/chrome/deb/ stable main'
+
+chrome_apt_packages:
+  - 'google-chrome-stable'
