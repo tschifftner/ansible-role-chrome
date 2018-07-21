@@ -1,6 +1,8 @@
+## This role is DEPRECATED!
+
 # Ansible Role: Install chrome
 
-[![Build Status](https://travis-ci.org/tschifftner/ansible-role-chrome.svg)](https://travis-ci.org/tschifftner/ansible-role-chrome)
+[![Build Status](https://travis-ci.org/tschifftner/ansible-role-chrome.svg?branch=master)](https://travis-ci.org/tschifftner/ansible-role-chrome)
 
 Installs [chrome](https://www.google.com/chrome) browser on Debian/Ubuntu linux servers.
 
